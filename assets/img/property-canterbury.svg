@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="760" height="500" role="img" aria-label="A warmly lit entry portico framed by established trees and garden uplighting at night">
+  <defs>
+    <linearGradient id="p3sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#060D18"/>
+      <stop offset="100%" stop-color="#101F2C"/>
+    </linearGradient>
+    <linearGradient id="p3door" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBE3B4"/>
+      <stop offset="60%" stop-color="#E0A855"/>
+      <stop offset="100%" stop-color="#A8712C"/>
+    </linearGradient>
+    <radialGradient id="p3glow" cx="0.5" cy="0.55" r="0.5">
+      <stop offset="0%" stop-color="#F0C382" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#F0C382" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="p3path" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A3227"/>
+      <stop offset="100%" stop-color="#0C0E12"/>
+    </linearGradient>
+    <linearGradient id="p3vig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04070C" stop-opacity="0.65"/>
+      <stop offset="45%" stop-color="#04070C" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#04070C" stop-opacity="0.8"/>
+    </linearGradient>
+    
+  <filter id="p3b" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="18"/>
+  </filter>
+    
+  <filter id="p3b2" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+    
+  <filter id="p3g" x="0%" y="0%" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="n"/>
+    <feColorMatrix type="saturate" values="0" in="n" result="g"/>
+    <feComponentTransfer in="g">
+      <feFuncA type="linear" slope="0.06"/>
+    </feComponentTransfer>
+  </filter>
+  </defs>
+  <rect width="760" height="500" fill="url(#p3sky)"/>
+
+  <!-- facade -->
+  <rect x="230" y="140" width="300" height="250" fill="#0B131B"/>
+  <rect x="248" y="150" width="264" height="14" fill="#101A24"/>
+  <ellipse cx="380" cy="316" rx="190" ry="140" fill="url(#p3glow)"/>
+  <rect x="336" y="212" width="88" height="178" fill="url(#p3door)"/>
+  <g stroke="#7C5222" stroke-width="2" opacity="0.55">
+    <line x1="380" y1="212" x2="380" y2="390"/>
+    <line x1="336" y1="270" x2="424" y2="270"/>
+  </g>
+  <rect x="326" y="204" width="108" height="12" fill="#0A1119"/>
+  <rect x="318" y="200" width="10" height="190" fill="#0A1119"/>
+  <rect x="432" y="200" width="10" height="190" fill="#0A1119"/>
+  <g filter="url(#p3b)" opacity="0.7">
+    <rect x="330" y="212" width="100" height="180" fill="#F2C889"/>
+  </g>
+  <g fill="#EFC489" opacity="0.75" filter="url(#p3b2)">
+    <circle cx="300" cy="248" r="4"/>
+    <circle cx="460" cy="248" r="4"/>
+  </g>
+
+  <!-- trees -->
+  <rect x="150" y="150" width="13" height="230" fill="#0A1218"/><rect x="596" y="140" width="15" height="250" fill="#0A1218"/><rect x="250" y="120" width="9" height="240" fill="#0A1218"/>
+  <g><ellipse cx="70" cy="168" rx="165" ry="150" fill="#050D12" opacity="1.0"/><ellipse cx="196" cy="104" rx="140" ry="118" fill="#050D12" opacity="1.0"/><ellipse cx="654" cy="152" rx="180" ry="158" fill="#050D12" opacity="1.0"/><ellipse cx="534" cy="96" rx="132" ry="108" fill="#050D12" opacity="1.0"/><ellipse cx="372" cy="44" rx="168" ry="104" fill="#050D12" opacity="1.0"/><ellipse cx="726" cy="258" rx="130" ry="140" fill="#050D12" opacity="1.0"/><ellipse cx="128" cy="250" rx="120" ry="128" fill="#050D12" opacity="1.0"/><ellipse cx="620" cy="274" rx="116" ry="122" fill="#050D12" opacity="1.0"/></g>
+
+  <!-- ground -->
+  <rect y="386" width="760" height="114" fill="#080B10"/>
+  <path d="M300,386 L460,386 L540,500 L220,500 Z" fill="url(#p3path)" opacity="0.85"/>
+  <g filter="url(#p3b)"><ellipse cx="156" cy="382" rx="40" ry="16" fill="#E9BE79" opacity="0.5"/><ellipse cx="604" cy="392" rx="44" ry="18" fill="#E9BE79" opacity="0.5"/><ellipse cx="300" cy="400" rx="30" ry="12" fill="#E9BE79" opacity="0.5"/><ellipse cx="470" cy="400" rx="30" ry="12" fill="#E9BE79" opacity="0.5"/></g>
+  <g opacity="0.35" filter="url(#p3b)">
+    <rect x="330" y="392" width="100" height="90" fill="#EFC489"/>
+  </g>
+  <rect width="760" height="500" fill="url(#p3vig)"/>
+  <rect width="760" height="500" filter="url(#p3g)" opacity="0.5" style="mix-blend-mode:overlay"/>
+</svg>
