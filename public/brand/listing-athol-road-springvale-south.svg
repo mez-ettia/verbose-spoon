@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bgg5oo74" x1="0" y1="0" x2="0.6" y2="1">
+<stop offset="0%" stop-color="#0b1c34"/>
+<stop offset="100%" stop-color="#050d1e"/>
+</linearGradient>
+<linearGradient id="goldg5oo74" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#8d6a2c" stop-opacity="0"/>
+<stop offset="35%" stop-color="#e6cd97"/>
+<stop offset="62%" stop-color="#f6e7c1"/>
+<stop offset="100%" stop-color="#8d6a2c" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="glowg5oo74" cx="56.6%" cy="20.8%" r="62%">
+<stop offset="0%" stop-color="#2a5892" stop-opacity="0.42"/>
+<stop offset="100%" stop-color="#2a5892" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="lineg5oo74" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#f6e9c8" stop-opacity="1"/>
+<stop offset="100%" stop-color="#9fb8d8" stop-opacity="0.5"/>
+</linearGradient>
+<radialGradient id="warmg5oo74" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#ffd89b"/>
+<stop offset="100%" stop-color="#c9903f" stop-opacity="0.2"/>
+</radialGradient>
+<filter id="warmblurg5oo74" x="-30%" y="-30%" width="160%" height="160%">
+<feGaussianBlur stdDeviation="1.98"/>
+</filter>
+<filter id="softg5oo74" x="-20%" y="-20%" width="140%" height="140%">
+<feGaussianBlur stdDeviation="25.2"/>
+</filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bgg5oo74)"/>
+<g filter="url(#softg5oo74)"><path d="M -120 228.28724172525108 C 0 228.28724172525108, 48 310.4490962211629, 168 310.4490962211629 C 288 310.4490962211629, 336 196.55836733920128, 456 196.55836733920128 C 576 196.55836733920128, 624 173.8074160521467, 744 173.8074160521467 C 864 173.8074160521467, 912 292.9396570365437, 1032 292.9396570365437 C 1152 292.9396570365437, 1200 194.4497899232166, 1320 194.4497899232166 L 1440 1260 L -120 1260 Z" fill="#12305c" opacity="0.100"/><path d="M -120 360.8094605728984 C 0 360.8094605728984, 48 409.3653493036391, 168 409.3653493036391 C 288 409.3653493036391, 336 345.89138515706946, 456 345.89138515706946 C 576 345.89138515706946, 624 317.9100632905701, 744 317.9100632905701 C 864 317.9100632905701, 912 416.4034174193799, 1032 416.4034174193799 C 1152 416.4034174193799, 1200 298.63589673239767, 1320 298.63589673239767 L 1440 1260 L -120 1260 Z" fill="#16406f" opacity="0.145"/><path d="M -120 459.3916292376817 C 0 459.3916292376817, 48 469.907237574845, 168 469.907237574845 C 288 469.907237574845, 336 429.7094916975246, 456 429.7094916975246 C 576 429.7094916975246, 624 497.00742664963025, 744 497.00742664963025 C 864 497.00742664963025, 912 464.1907415965304, 1032 464.1907415965304 C 1152 464.1907415965304, 1200 461.86266622768585, 1320 461.86266622768585 L 1440 1260 L -120 1260 Z" fill="#1b3a63" opacity="0.190"/><path d="M -120 646.4773328583688 C 0 646.4773328583688, 48 633.5700087533133, 168 633.5700087533133 C 288 633.5700087533133, 336 562.9268085209023, 456 562.9268085209023 C 576 562.9268085209023, 624 753.6217243132837, 744 753.6217243132837 C 864 753.6217243132837, 912 564.2116188342951, 1032 564.2116188342951 C 1152 564.2116188342951, 1200 537.2280519088486, 1320 537.2280519088486 L 1440 1260 L -120 1260 Z" fill="#0f2a51" opacity="0.235"/><path d="M -120 747.0088580958545 C 0 747.0088580958545, 48 695.2662024770775, 168 695.2662024770775 C 288 695.2662024770775, 336 794.2795072929414, 456 794.2795072929414 C 576 794.2795072929414, 624 684.3940990042503, 744 684.3940990042503 C 864 684.3940990042503, 912 741.406580475581, 1032 741.406580475581 C 1152 741.406580475581, 1200 688.6506927284582, 1320 688.6506927284582 L 1440 1260 L -120 1260 Z" fill="#1d4a7d" opacity="0.280"/></g>
+<rect width="1200" height="900" fill="url(#glowg5oo74)"/>
+<g filter="url(#softg5oo74)" opacity="0.9"><path d="M -120 393.88755147345364 C 0 393.88755147345364, 48 374.43993026856333, 168 374.43993026856333 C 288 374.43993026856333, 336 368.97573160752654, 456 368.97573160752654 C 576 368.97573160752654, 624 380.8654859159142, 744 380.8654859159142 C 864 380.8654859159142, 912 435.1920457519591, 1032 435.1920457519591 C 1152 435.1920457519591, 1200 374.4875455806032, 1320 374.4875455806032"
+fill="none" stroke="url(#goldg5oo74)" stroke-width="1.47"
+opacity="0.59"/></g>
+<g filter="url(#warmblurg5oo74)"><rect x="308.2" y="494.8" width="127.7" height="77.8" fill="url(#warmg5oo74)" opacity="0.61"/><rect x="335.5" y="650.3" width="73.0" height="110.2" fill="url(#warmg5oo74)" opacity="0.48"/><rect x="536.2" y="467.8" width="127.7" height="77.8" fill="url(#warmg5oo74)" opacity="0.54"/><rect x="563.5" y="650.3" width="73.0" height="110.2" fill="url(#warmg5oo74)" opacity="0.62"/><rect x="764.2" y="494.8" width="127.7" height="77.8" fill="url(#warmg5oo74)" opacity="0.73"/><rect x="791.5" y="650.3" width="73.0" height="110.2" fill="url(#warmg5oo74)" opacity="0.58"/></g><g opacity="0.78"><path d="M 258 760.5 L 258 436.5 L 486 436.5 L 486 760.5" stroke="url(#lineg5oo74)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5"/><rect x="308.2" y="494.8" width="127.7" height="77.8" stroke="url(#lineg5oo74)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="335.5" y="650.3" width="73.0" height="110.2" stroke="url(#lineg5oo74)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><path d="M 486 760.5 L 486 409.5 L 714 409.5 L 714 760.5" stroke="url(#lineg5oo74)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5"/><rect x="536.2" y="467.8" width="127.7" height="77.8" stroke="url(#lineg5oo74)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="563.5" y="650.3" width="73.0" height="110.2" stroke="url(#lineg5oo74)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><path d="M 714 760.5 L 714 436.5 L 942 436.5 L 942 760.5" stroke="url(#lineg5oo74)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5"/><rect x="764.2" y="494.8" width="127.7" height="77.8" stroke="url(#lineg5oo74)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="791.5" y="650.3" width="73.0" height="110.2" stroke="url(#lineg5oo74)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><path d="M 72 760.5 L 1128 760.5" stroke="url(#goldg5oo74)" stroke-width="1" fill="none" opacity="0.55"/></g>
+</svg>

@@ -1,0 +1,232 @@
+@import "tailwindcss";
+
+/* ============================================================
+   COCO MA — EXCLUSIVE PROPERTY
+   Design tokens
+   ============================================================ */
+@theme {
+  /* Surfaces — deep navy, the brand's ground */
+  --color-ink: #04091a;
+  --color-navy-950: #060d20;
+  --color-navy-900: #081228;
+  --color-navy-800: #0b1a36;
+  --color-navy-700: #102544;
+  --color-navy-600: #16305c;
+
+  /* Gold — the brand's only accent */
+  --color-gold-100: #f6e7c1;
+  --color-gold-200: #ecd5a3;
+  --color-gold-300: #dfbe80;
+  --color-gold-400: #cfa761;
+  --color-gold-500: #bd8f45;
+  --color-gold-600: #97702f;
+  --color-gold-700: #6d5122;
+
+  /* Neutrals */
+  --color-ivory: #f6f2e9;
+  --color-bone: #e6e0d2;
+  --color-mist: #9daabf;
+  --color-slate-muted: #63718a;
+
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-jost), "Jost", system-ui, sans-serif;
+  --font-body: var(--font-inter), "Inter", system-ui, sans-serif;
+
+  --ease-luxe: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-swift: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* ============================================================
+   Base
+   ============================================================ */
+* { border-color: color-mix(in srgb, var(--color-gold-400) 14%, transparent); }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-bone);
+  font-family: var(--font-body);
+  font-feature-settings: "ss01", "cv01";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-gold-400);
+  color: var(--color-ink);
+}
+
+/* Slim gold scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-navy-950); }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--color-gold-500), var(--color-gold-700));
+  border-radius: 999px;
+  border: 3px solid var(--color-navy-950);
+}
+
+/* ============================================================
+   Typographic utilities
+   ============================================================ */
+.font-display { font-family: var(--font-display); }
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: var(--color-gold-300);
+  font-weight: 400;
+}
+
+.wordmark {
+  font-family: var(--font-display);
+  letter-spacing: 0.24em;
+  font-weight: 300;
+}
+
+/* Gold foil text — a warm metallic sweep, not a flat colour */
+.text-foil {
+  background: linear-gradient(
+    100deg,
+    #8d6a2c 0%,
+    #d9bd82 18%,
+    #f8ecd0 32%,
+    #cfa761 46%,
+    #9a7433 60%,
+    #e3c893 78%,
+    #b38942 100%
+  );
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: foil-drift 9s var(--ease-luxe) infinite alternate;
+}
+
+@keyframes foil-drift {
+  from { background-position: 0% 50%; }
+  to   { background-position: 100% 50%; }
+}
+
+.rule-gold {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--color-gold-400) 70%, transparent),
+    transparent
+  );
+}
+
+/* ============================================================
+   Surfaces & effects
+   ============================================================ */
+
+/* Film grain — keeps large dark fields from banding */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.32;
+  mix-blend-mode: overlay;
+  background-image: url("/brand/grain.svg");
+  background-size: 220px 220px;
+}
+
+.glass {
+  background: color-mix(in srgb, var(--color-navy-900) 62%, transparent);
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+}
+
+.hairline {
+  border: 1px solid color-mix(in srgb, var(--color-gold-400) 16%, transparent);
+}
+
+/* Card that lights up from the cursor position */
+.spotlight {
+  position: relative;
+  isolation: isolate;
+}
+.spotlight::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s var(--ease-luxe);
+  background: radial-gradient(
+    340px circle at var(--mx, 50%) var(--my, 50%),
+    color-mix(in srgb, var(--color-gold-400) 15%, transparent),
+    transparent 70%
+  );
+}
+.spotlight:hover::before { opacity: 1; }
+
+/* ============================================================
+   Motion
+   ============================================================ */
+@keyframes marquee-x {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
+}
+.animate-marquee { animation: marquee-x var(--marquee-duration, 40s) linear infinite; }
+
+@keyframes silk {
+  0%   { transform: translate3d(-4%, 0, 0) scale(1.08) rotate(0deg); }
+  50%  { transform: translate3d(4%, -2%, 0) scale(1.14) rotate(1.2deg); }
+  100% { transform: translate3d(-4%, 0, 0) scale(1.08) rotate(0deg); }
+}
+.animate-silk { animation: silk 32s ease-in-out infinite; }
+
+@keyframes shimmer-sweep {
+  from { transform: translateX(-120%) skewX(-18deg); }
+  to   { transform: translateX(320%) skewX(-18deg); }
+}
+
+@keyframes pulse-ring {
+  0%   { transform: scale(0.9); opacity: 0.75; }
+  70%  { transform: scale(1.7); opacity: 0; }
+  100% { transform: scale(1.7); opacity: 0; }
+}
+.animate-pulse-ring { animation: pulse-ring 2.6s var(--ease-luxe) infinite; }
+
+@keyframes caret-blink {
+  0%, 45% { opacity: 1; }
+  50%, 95% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* The trailing cursor is a fine-pointer affordance only. */
+.custom-cursor { display: none; }
+@media (pointer: fine) and (min-width: 768px) {
+  .custom-cursor { display: block; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .custom-cursor { display: none; }
+}
+
+/* Focus — visible, and on brand */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--color-gold-300);
+  outline-offset: 3px;
+  border-radius: 2px;
+}

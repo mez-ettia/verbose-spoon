@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg1qzbfok" x1="0" y1="0" x2="0.6" y2="1">
+<stop offset="0%" stop-color="#09182f"/>
+<stop offset="100%" stop-color="#050b17"/>
+</linearGradient>
+<linearGradient id="gold1qzbfok" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#8d6a2c" stop-opacity="0"/>
+<stop offset="35%" stop-color="#e6cd97"/>
+<stop offset="62%" stop-color="#f6e7c1"/>
+<stop offset="100%" stop-color="#8d6a2c" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="glow1qzbfok" cx="72.4%" cy="43.7%" r="62%">
+<stop offset="0%" stop-color="#2a5892" stop-opacity="0.42"/>
+<stop offset="100%" stop-color="#2a5892" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="line1qzbfok" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#f6e9c8" stop-opacity="1"/>
+<stop offset="100%" stop-color="#9fb8d8" stop-opacity="0.5"/>
+</linearGradient>
+<radialGradient id="warm1qzbfok" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#ffd89b"/>
+<stop offset="100%" stop-color="#c9903f" stop-opacity="0.2"/>
+</radialGradient>
+<filter id="warmblur1qzbfok" x="-30%" y="-30%" width="160%" height="160%">
+<feGaussianBlur stdDeviation="1.98"/>
+</filter>
+<filter id="soft1qzbfok" x="-20%" y="-20%" width="140%" height="140%">
+<feGaussianBlur stdDeviation="25.2"/>
+</filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg1qzbfok)"/>
+<g filter="url(#soft1qzbfok)"><path d="M -120 201.19417049735785 C 0 201.19417049735785, 48 217.10771084549444, 168 217.10771084549444 C 288 217.10771084549444, 336 211.2612657797631, 456 211.2612657797631 C 576 211.2612657797631, 624 155.5716374145612, 744 155.5716374145612 C 864 155.5716374145612, 912 179.44483318383504, 1032 179.44483318383504 C 1152 179.44483318383504, 1200 103.0963705924873, 1320 103.0963705924873 L 1440 1260 L -120 1260 Z" fill="#12305c" opacity="0.100"/><path d="M -120 342.48487542942166 C 0 342.48487542942166, 48 357.94443662960833, 168 357.94443662960833 C 288 357.94443662960833, 336 337.02839076361715, 456 337.02839076361715 C 576 337.02839076361715, 624 327.600895312357, 744 327.600895312357 C 864 327.600895312357, 912 346.4165661224374, 1032 346.4165661224374 C 1152 346.4165661224374, 1200 316.46379920325825, 1320 316.46379920325825 L 1440 1260 L -120 1260 Z" fill="#16406f" opacity="0.145"/><path d="M -120 476.8437421973795 C 0 476.8437421973795, 48 413.2649014787783, 168 413.2649014787783 C 288 413.2649014787783, 336 396.21612680390194, 456 396.21612680390194 C 576 396.21612680390194, 624 420.03502157254565, 744 420.03502157254565 C 864 420.03502157254565, 912 575.909539573527, 1032 575.909539573527 C 1152 575.909539573527, 1200 386.9415321628659, 1320 386.9415321628659 L 1440 1260 L -120 1260 Z" fill="#1b3a63" opacity="0.190"/><path d="M -120 647.2527340706438 C 0 647.2527340706438, 48 646.2399628798955, 168 646.2399628798955 C 288 646.2399628798955, 336 732.5200270286651, 456 732.5200270286651 C 576 732.5200270286651, 624 723.2264888787169, 744 723.2264888787169 C 864 723.2264888787169, 912 602.4619092176281, 1032 602.4619092176281 C 1152 602.4619092176281, 1200 584.8358175140718, 1320 584.8358175140718 L 1440 1260 L -120 1260 Z" fill="#0f2a51" opacity="0.235"/><path d="M -120 797.6824725307524 C 0 797.6824725307524, 48 784.5569706167153, 168 784.5569706167153 C 288 784.5569706167153, 336 852.7721355684835, 456 852.7721355684835 C 576 852.7721355684835, 624 716.1894221597805, 744 716.1894221597805 C 864 716.1894221597805, 912 732.1836995801818, 1032 732.1836995801818 C 1152 732.1836995801818, 1200 848.5273439618074, 1320 848.5273439618074 L 1440 1260 L -120 1260 Z" fill="#1d4a7d" opacity="0.280"/></g>
+<rect width="1200" height="900" fill="url(#glow1qzbfok)"/>
+<g filter="url(#soft1qzbfok)" opacity="0.9"><path d="M -120 429.00337109109387 C 0 429.00337109109387, 48 383.7897626054473, 168 383.7897626054473 C 288 383.7897626054473, 336 398.87951258243993, 456 398.87951258243993 C 576 398.87951258243993, 624 376.1558448993601, 744 376.1558448993601 C 864 376.1558448993601, 912 394.16423638304695, 1032 394.16423638304695 C 1152 394.16423638304695, 1200 432.8766963654198, 1320 432.8766963654198"
+fill="none" stroke="url(#gold1qzbfok)" stroke-width="1.69"
+opacity="0.47"/></g>
+<g filter="url(#warmblur1qzbfok)"><rect x="308.2" y="494.8" width="127.7" height="77.8" fill="url(#warm1qzbfok)" opacity="0.79"/><rect x="335.5" y="650.3" width="73.0" height="110.2" fill="url(#warm1qzbfok)" opacity="0.67"/><rect x="536.2" y="467.8" width="127.7" height="77.8" fill="url(#warm1qzbfok)" opacity="0.56"/><rect x="563.5" y="650.3" width="73.0" height="110.2" fill="url(#warm1qzbfok)" opacity="0.45"/><rect x="764.2" y="494.8" width="127.7" height="77.8" fill="url(#warm1qzbfok)" opacity="0.79"/><rect x="791.5" y="650.3" width="73.0" height="110.2" fill="url(#warm1qzbfok)" opacity="0.78"/></g><g opacity="0.78"><path d="M 258 760.5 L 258 436.5 L 486 436.5 L 486 760.5" stroke="url(#line1qzbfok)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5"/><rect x="308.2" y="494.8" width="127.7" height="77.8" stroke="url(#line1qzbfok)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="335.5" y="650.3" width="73.0" height="110.2" stroke="url(#line1qzbfok)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><path d="M 486 760.5 L 486 409.5 L 714 409.5 L 714 760.5" stroke="url(#line1qzbfok)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5"/><rect x="536.2" y="467.8" width="127.7" height="77.8" stroke="url(#line1qzbfok)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="563.5" y="650.3" width="73.0" height="110.2" stroke="url(#line1qzbfok)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><path d="M 714 760.5 L 714 436.5 L 942 436.5 L 942 760.5" stroke="url(#line1qzbfok)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5"/><rect x="764.2" y="494.8" width="127.7" height="77.8" stroke="url(#line1qzbfok)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="791.5" y="650.3" width="73.0" height="110.2" stroke="url(#line1qzbfok)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><path d="M 72 760.5 L 1128 760.5" stroke="url(#gold1qzbfok)" stroke-width="1" fill="none" opacity="0.55"/></g>
+</svg>

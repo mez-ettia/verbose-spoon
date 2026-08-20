@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bgwql20z" x1="0" y1="0" x2="0.6" y2="1">
+<stop offset="0%" stop-color="#0b1c34"/>
+<stop offset="100%" stop-color="#050d1e"/>
+</linearGradient>
+<linearGradient id="goldwql20z" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#8d6a2c" stop-opacity="0"/>
+<stop offset="35%" stop-color="#e6cd97"/>
+<stop offset="62%" stop-color="#f6e7c1"/>
+<stop offset="100%" stop-color="#8d6a2c" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="glowwql20z" cx="64.4%" cy="50.0%" r="62%">
+<stop offset="0%" stop-color="#2a5892" stop-opacity="0.42"/>
+<stop offset="100%" stop-color="#2a5892" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="linewql20z" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#f6e9c8" stop-opacity="1"/>
+<stop offset="100%" stop-color="#9fb8d8" stop-opacity="0.5"/>
+</linearGradient>
+<radialGradient id="warmwql20z" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#ffd89b"/>
+<stop offset="100%" stop-color="#c9903f" stop-opacity="0.2"/>
+</radialGradient>
+<filter id="warmblurwql20z" x="-30%" y="-30%" width="160%" height="160%">
+<feGaussianBlur stdDeviation="1.98"/>
+</filter>
+<filter id="softwql20z" x="-20%" y="-20%" width="140%" height="140%">
+<feGaussianBlur stdDeviation="25.2"/>
+</filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bgwql20z)"/>
+<g filter="url(#softwql20z)"><path d="M -120 225.34217366203666 C 0 225.34217366203666, 48 276.8619554610152, 168 276.8619554610152 C 288 276.8619554610152, 336 222.1579163638259, 456 222.1579163638259 C 576 222.1579163638259, 624 184.0227748509308, 744 184.0227748509308 C 864 184.0227748509308, 912 254.53988947212284, 1032 254.53988947212284 C 1152 254.53988947212284, 1200 269.1895492497538, 1320 269.1895492497538 L 1440 1260 L -120 1260 Z" fill="#12305c" opacity="0.100"/><path d="M -120 362.9613249823451 C 0 362.9613249823451, 48 364.3827409543731, 168 364.3827409543731 C 288 364.3827409543731, 336 356.0274886769988, 456 356.0274886769988 C 576 356.0274886769988, 624 371.61424996652005, 744 371.61424996652005 C 864 371.61424996652005, 912 386.8584587193019, 1032 386.8584587193019 C 1152 386.8584587193019, 1200 383.5180941981327, 1320 383.5180941981327 L 1440 1260 L -120 1260 Z" fill="#16406f" opacity="0.145"/><path d="M -120 460.9871673379094 C 0 460.9871673379094, 48 510.43479732083364, 168 510.43479732083364 C 288 510.43479732083364, 336 472.19968499268964, 456 472.19968499268964 C 576 472.19968499268964, 624 470.8186774553218, 744 470.8186774553218 C 864 470.8186774553218, 912 484.5544902070179, 1032 484.5544902070179 C 1152 484.5544902070179, 1200 444.1922225941907, 1320 444.1922225941907 L 1440 1260 L -120 1260 Z" fill="#1b3a63" opacity="0.190"/><path d="M -120 642.290540356189 C 0 642.290540356189, 48 642.8432318783315, 168 642.8432318783315 C 288 642.8432318783315, 336 726.9230325816234, 456 726.9230325816234 C 576 726.9230325816234, 624 593.2745553064325, 744 593.2745553064325 C 864 593.2745553064325, 912 671.8115003326538, 1032 671.8115003326538 C 1152 671.8115003326538, 1200 661.9854357959837, 1320 661.9854357959837 L 1440 1260 L -120 1260 Z" fill="#0f2a51" opacity="0.235"/><path d="M -120 758.2511604409665 C 0 758.2511604409665, 48 835.6584773957662, 168 835.6584773957662 C 288 835.6584773957662, 336 762.5709245071484, 456 762.5709245071484 C 576 762.5709245071484, 624 777.1304644058791, 744 777.1304644058791 C 864 777.1304644058791, 912 866.3629987715294, 1032 866.3629987715294 C 1152 866.3629987715294, 1200 687.4411742569409, 1320 687.4411742569409 L 1440 1260 L -120 1260 Z" fill="#1d4a7d" opacity="0.280"/></g>
+<rect width="1200" height="900" fill="url(#glowwql20z)"/>
+<g filter="url(#softwql20z)" opacity="0.9"><path d="M -120 359.796928790398 C 0 359.796928790398, 48 412.45416359324014, 168 412.45416359324014 C 288 412.45416359324014, 336 319.51731888949877, 456 319.51731888949877 C 576 319.51731888949877, 624 310.6727185025812, 744 310.6727185025812 C 864 310.6727185025812, 912 351.44484529551124, 1032 351.44484529551124 C 1152 351.44484529551124, 1200 403.73367010708904, 1320 403.73367010708904"
+fill="none" stroke="url(#goldwql20z)" stroke-width="1.41"
+opacity="0.47"/></g>
+<g filter="url(#warmblurwql20z)"><rect x="298.1" y="466.4" width="130.6" height="95.8" fill="url(#warmwql20z)" opacity="0.59"/><rect x="298.1" y="610.0" width="130.6" height="95.8" fill="url(#warmwql20z)" opacity="0.52"/><rect x="474.7" y="466.4" width="130.6" height="95.8" fill="url(#warmwql20z)" opacity="0.54"/><rect x="474.7" y="610.0" width="130.6" height="95.8" fill="url(#warmwql20z)" opacity="0.64"/><rect x="698.4" y="603.0" width="187.2" height="94.5" fill="url(#warmwql20z)" opacity="0.47"/></g><g opacity="0.78"><rect x="252" y="418.5" width="384" height="342" stroke="url(#linewql20z)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.6"/><rect x="636" y="535.5" width="312" height="225" stroke="url(#linewql20z)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.6"/><path d="M 216 418.5 L 984 418.5" stroke="url(#linewql20z)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1"/><rect x="298.1" y="466.4" width="130.6" height="95.8" stroke="url(#linewql20z)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="298.1" y="610.0" width="130.6" height="95.8" stroke="url(#linewql20z)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="474.7" y="466.4" width="130.6" height="95.8" stroke="url(#linewql20z)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="474.7" y="610.0" width="130.6" height="95.8" stroke="url(#linewql20z)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="698.4" y="603.0" width="187.2" height="94.5" stroke="url(#linewql20z)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><path d="M 72 760.5 L 1128 760.5" stroke="url(#goldwql20z)" stroke-width="1" fill="none" opacity="0.55"/></g>
+</svg>

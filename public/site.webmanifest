@@ -1,0 +1,8 @@
+{
+  "name": "Coco Ma — Exclusive Property",
+  "short_name": "Coco Ma",
+  "theme_color": "#04091a",
+  "background_color": "#04091a",
+  "display": "standalone",
+  "icons": [{ "src": "/brand/crown.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

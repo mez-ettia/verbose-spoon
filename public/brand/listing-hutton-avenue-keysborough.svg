@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="bg1sfh3nt" x1="0" y1="0" x2="0.6" y2="1">
+<stop offset="0%" stop-color="#09182f"/>
+<stop offset="100%" stop-color="#050b17"/>
+</linearGradient>
+<linearGradient id="gold1sfh3nt" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0%" stop-color="#8d6a2c" stop-opacity="0"/>
+<stop offset="35%" stop-color="#e6cd97"/>
+<stop offset="62%" stop-color="#f6e7c1"/>
+<stop offset="100%" stop-color="#8d6a2c" stop-opacity="0"/>
+</linearGradient>
+<radialGradient id="glow1sfh3nt" cx="34.8%" cy="12.3%" r="62%">
+<stop offset="0%" stop-color="#2a5892" stop-opacity="0.42"/>
+<stop offset="100%" stop-color="#2a5892" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="line1sfh3nt" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#f6e9c8" stop-opacity="1"/>
+<stop offset="100%" stop-color="#9fb8d8" stop-opacity="0.5"/>
+</linearGradient>
+<radialGradient id="warm1sfh3nt" cx="50%" cy="50%" r="70%">
+<stop offset="0%" stop-color="#ffd89b"/>
+<stop offset="100%" stop-color="#c9903f" stop-opacity="0.2"/>
+</radialGradient>
+<filter id="warmblur1sfh3nt" x="-30%" y="-30%" width="160%" height="160%">
+<feGaussianBlur stdDeviation="1.98"/>
+</filter>
+<filter id="soft1sfh3nt" x="-20%" y="-20%" width="140%" height="140%">
+<feGaussianBlur stdDeviation="25.2"/>
+</filter>
+</defs>
+<rect width="1200" height="900" fill="url(#bg1sfh3nt)"/>
+<g filter="url(#soft1sfh3nt)"><path d="M -120 194.91695888713002 C 0 194.91695888713002, 48 146.6081748522201, 168 146.6081748522201 C 288 146.6081748522201, 336 214.94059829958044, 456 214.94059829958044 C 576 214.94059829958044, 624 154.55055641755703, 744 154.55055641755703 C 864 154.55055641755703, 912 236.42597625926544, 1032 236.42597625926544 C 1152 236.42597625926544, 1200 155.94062637864226, 1320 155.94062637864226 L 1440 1260 L -120 1260 Z" fill="#12305c" opacity="0.100"/><path d="M -120 309.0035381745547 C 0 309.0035381745547, 48 242.75130093115234, 168 242.75130093115234 C 288 242.75130093115234, 336 296.27968125571203, 456 296.27968125571203 C 576 296.27968125571203, 624 296.78999405296724, 744 296.78999405296724 C 864 296.78999405296724, 912 309.63099488781, 1032 309.63099488781 C 1152 309.63099488781, 1200 275.97167665308115, 1320 275.97167665308115 L 1440 1260 L -120 1260 Z" fill="#16406f" opacity="0.145"/><path d="M -120 505.2838390599937 C 0 505.2838390599937, 48 505.0764598551877, 168 505.0764598551877 C 288 505.0764598551877, 336 515.1523410101245, 456 515.1523410101245 C 576 515.1523410101245, 624 446.5692966441549, 744 446.5692966441549 C 864 446.5692966441549, 912 592.9765833333807, 1032 592.9765833333807 C 1152 592.9765833333807, 1200 508.7884056763928, 1320 508.7884056763928 L 1440 1260 L -120 1260 Z" fill="#1b3a63" opacity="0.190"/><path d="M -120 607.998762499541 C 0 607.998762499541, 48 557.3409505297001, 168 557.3409505297001 C 288 557.3409505297001, 336 526.4860445950156, 456 526.4860445950156 C 576 526.4860445950156, 624 603.3543533579261, 744 603.3543533579261 C 864 603.3543533579261, 912 674.4084077339795, 1032 674.4084077339795 C 1152 674.4084077339795, 1200 617.9154089578543, 1320 617.9154089578543 L 1440 1260 L -120 1260 Z" fill="#0f2a51" opacity="0.235"/><path d="M -120 762.1438169069588 C 0 762.1438169069588, 48 866.0998797949549, 168 866.0998797949549 C 288 866.0998797949549, 336 680.6780972103063, 456 680.6780972103063 C 576 680.6780972103063, 624 837.6752061597962, 744 837.6752061597962 C 864 837.6752061597962, 912 658.2338296880503, 1032 658.2338296880503 C 1152 658.2338296880503, 1200 687.7659774530894, 1320 687.7659774530894 L 1440 1260 L -120 1260 Z" fill="#1d4a7d" opacity="0.280"/></g>
+<rect width="1200" height="900" fill="url(#glow1sfh3nt)"/>
+<g filter="url(#soft1sfh3nt)" opacity="0.9"><path d="M -120 440.92336476640776 C 0 440.92336476640776, 48 423.5408400599845, 168 423.5408400599845 C 288 423.5408400599845, 336 466.2032507811673, 456 466.2032507811673 C 576 466.2032507811673, 624 468.06341967964545, 744 468.06341967964545 C 864 468.06341967964545, 912 419.07187631959096, 1032 419.07187631959096 C 1152 419.07187631959096, 1200 426.71372063225135, 1320 426.71372063225135"
+fill="none" stroke="url(#gold1sfh3nt)" stroke-width="1.85"
+opacity="0.35"/></g>
+<g filter="url(#warmblur1sfh3nt)"><rect x="298.1" y="466.4" width="130.6" height="95.8" fill="url(#warm1sfh3nt)" opacity="0.56"/><rect x="298.1" y="610.0" width="130.6" height="95.8" fill="url(#warm1sfh3nt)" opacity="0.68"/><rect x="474.7" y="466.4" width="130.6" height="95.8" fill="url(#warm1sfh3nt)" opacity="0.66"/><rect x="474.7" y="610.0" width="130.6" height="95.8" fill="url(#warm1sfh3nt)" opacity="0.83"/><rect x="698.4" y="603.0" width="187.2" height="94.5" fill="url(#warm1sfh3nt)" opacity="0.86"/></g><g opacity="0.78"><rect x="252" y="418.5" width="384" height="342" stroke="url(#line1sfh3nt)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.6"/><rect x="636" y="535.5" width="312" height="225" stroke="url(#line1sfh3nt)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.6"/><path d="M 216 418.5 L 984 418.5" stroke="url(#line1sfh3nt)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1"/><rect x="298.1" y="466.4" width="130.6" height="95.8" stroke="url(#line1sfh3nt)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="298.1" y="610.0" width="130.6" height="95.8" stroke="url(#line1sfh3nt)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="474.7" y="466.4" width="130.6" height="95.8" stroke="url(#line1sfh3nt)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="474.7" y="610.0" width="130.6" height="95.8" stroke="url(#line1sfh3nt)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><rect x="698.4" y="603.0" width="187.2" height="94.5" stroke="url(#line1sfh3nt)" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.1"/><path d="M 72 760.5 L 1128 760.5" stroke="url(#gold1sfh3nt)" stroke-width="1" fill="none" opacity="0.55"/></g>
+</svg>
