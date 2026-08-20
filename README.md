@@ -13,8 +13,10 @@ assets/css/styles.css      the design system and all layout
 assets/js/main.js          sticky header, scroll reveals, mobile menu
 assets/fonts/*.woff2       Cormorant Garamond, Jost, Italianno (latin subsets)
 assets/img/*.svg           the monogram and every "photograph" on the page
+assets/img/photo/          drop-in slot for real photography (see its README)
 tools/gen_art.py           regenerates the scenic artwork
 tools/gen_logo.py          regenerates the CM monogram
+tools/use_photos.py        swaps the vector art for photographs, and back
 tools/build_single.py      bundles everything into dist/coco-ma.html
 tools/shot.js              Playwright screenshots, used for visual QA
 ```
@@ -34,8 +36,12 @@ its quiet, spaced-out formality. Italianno appears exactly once, for the signatu
 gradient skies, silhouette architecture, warm interior light and a `feTurbulence` grain
 pass. The trade is realism for a site that ships self-contained, stays sharp at any
 density and weighs under half a megabyte all in. `tools/gen_art.py` is where the scenes
-are composed; swapping in real photography means replacing the `<img src>` values and
-nothing else.
+are composed.
+
+Real photography drops straight in: put the files in `assets/img/photo/` and run
+`python3 tools/use_photos.py --on`. The hero deliberately stays vector either way — it
+sits behind a heavy mask and a gradient wash, so it reads as atmosphere rather than as a
+photograph, and mixing media there is far less visible than inside the three-card row.
 
 **The monogram.** Drawn as geometry, not traced. The C is an ellipse arc whose stroke
 weight swells at the left flank and tapers to points at both terminals; the M is built
@@ -70,7 +76,9 @@ settled state.
   Melbourne suburb.
 - The mockup's viewport cuts off below "Let's Connect". An **Insights** band and a footer
   were added so that every item in the navigation resolves to something on the page.
-- Photography is vector artwork (see *Imagery* above).
+- Photography is vector artwork (see *Imagery* above). Photographs for the portrait and
+  the three property cards were generated separately; `assets/img/photo/README.md` records
+  the prompts and how to drop them in.
 
 ## Licence
 
