@@ -19,6 +19,10 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# In fragment mode the host shows the title in a tab and a gallery, where the
+# brand name alone reads better than the page's SEO title.
+TITLE_OVERRIDE = "Coco Ma"
+
 
 def read(rel):
     with open(os.path.join(ROOT, rel), "r", encoding="utf-8") as fh:
@@ -66,17 +70,15 @@ def build(fragment=False):
     )
 
     if fragment:
+        # Keep only the title, the inlined stylesheet and the page content; the
+        # host supplies the document skeleton and its own meta tags.
         head = re.search(r"<head>(.*?)</head>", html, re.S).group(1)
         body = re.search(r"<body[^>]*>(.*?)</body>", html, re.S).group(1)
-        keep = "\n".join(
-            line for line in head.splitlines()
-            if line.strip().startswith(("<title", "<style", "</style"))
-            or (line.strip() and not line.strip().startswith(("<meta", "<link")))
-        )
-        # Everything between <style> and </style> must survive intact.
+        title = re.search(r"<title>(.*?)</title>", head, re.S).group(1)
+        if TITLE_OVERRIDE:
+            title = TITLE_OVERRIDE
         style = re.search(r"<style>.*?</style>", head, re.S).group(0)
-        title = re.search(r"<title>.*?</title>", head, re.S).group(0)
-        html = f"{title}\n{style}\n<div id=\"top\">{body}</div>"
+        html = f"<title>{title}</title>\n{style}\n<div id=\"top\">{body}</div>"
 
     return html
 
